@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Question_3">
+
+    <RadioGroup
+        android:id="@+id/radionGroupRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="14dp"
+        android:background="#abeceb">
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Кто был первым царем России после освободительного движения, получившим титул царя?"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/oneRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Иван III"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/twoRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Иван IV (Грозный)"
+
+            />
+        <RadioButton
+            android:id="@+id/threeRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Пётр I"
+
+            />
+        <RadioButton
+            android:id="@+id/fourRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Николай II"
+
+            />
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/buttonBTNTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Подтвердить"
+        />
+
+</LinearLayout>
